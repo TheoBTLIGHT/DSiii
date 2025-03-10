@@ -7,10 +7,11 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+
     <!-- Navbar -->
     <header>
-        <div id="info">
-            <h3>Bourdon Théo - 1er CIEL</h3>
+        <div id="header-left">
+            <h3>Bourdon Théo - 1ère CIEL</h3>
         </div>
         <nav>
             <ul>
@@ -29,36 +30,31 @@
     <section id="accueil">
         <h1>Mon Projet Professionnel : Directeur des Systèmes Informatiques</h1>
         <p>Passionné par les technologies et la gestion des systèmes d'information, je souhaite devenir Directeur des Systèmes Informatiques (DSI). Ce rôle stratégique combine gestion, sécurité et innovation, des enjeux cruciaux pour la réussite d’une entreprise.</p>
-        <img src="images/accueil.jpg" alt="Photo accueil DSI">
     </section>
 
     <!-- Section Métier -->
     <section id="metier">
         <h2>Le rôle du Directeur des Systèmes Informatiques</h2>
         <p>Le Directeur des Systèmes Informatiques (DSI) est responsable de la gestion, de la sécurité et de l’évolution des infrastructures informatiques d'une entreprise. Il veille à ce que les systèmes soient performants, sécurisés et alignés avec les objectifs stratégiques de l'entreprise.</p>
-        <ul>
-            <li>Gestion des infrastructures réseaux</li>
-            <li>Sécurisation des données et des systèmes</li>
-            <li>Gestion des équipes techniques</li>
-            <li>Pilotage des projets informatiques</li>
-        </ul>
-        <img src="images/metier.jpg" alt="Infrastructures réseaux">
     </section>
 
-    <!-- Section Salaire -->
-    <section id="salaire">
-        <h2>Le Salaire du Directeur des Systèmes Informatiques</h2>
-        <p>Le salaire d’un DSI varie en fonction de l’expérience et de la taille de l’entreprise. En moyenne :</p>
-        <ul>
-            <li>Junior (0-3 ans) : 50 000 € - 70 000 €</li>
-            <li>Confirmé (3-10 ans) : 70 000 € - 100 000 €</li>
-            <li>Senior (10+ ans) : 100 000 € - 150 000 €</li>
-        </ul>
-        <img src="images/salaire.jpg" alt="Salaire DSI">
+    <!-- Section Contact -->
+    <section id="contact">
+        <h2>Contactez-moi</h2>
+        <form action="mailto:contact@example.com" method="post" enctype="text/plain">
+            <label for="nom">Nom :</label>
+            <input type="text" id="nom" name="nom" required>
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message :</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            <button type="submit">Envoyer</button>
+        </form>
     </section>
 
     <footer>
-        <p>&copy; 2025 Bourdon Théo - 1er CIEL</p>
+        <p>&copy; 2025 Bourdon Théo - Mon Projet Professionnel</p>
     </footer>
+
 </body>
 </html>
